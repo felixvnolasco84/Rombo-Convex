@@ -22,7 +22,7 @@ const queryClient = new QueryClient({
 
 convexQueryClient.connect(queryClient)
 
-function InnerApp() {
+function InnerApp() { 
   return <RouterProvider router={router} context={{ queryClient }} />
 }
 
