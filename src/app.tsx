@@ -32,7 +32,7 @@ export default function App() {
   return (
     <HelmetProvider context={helmetContext}>
       <ConvexAuthProvider client={convex}>
-        <QueryClientProvider client={queryClient}>
+        <QueryClientProvider client={queryClient}> 
           <InnerApp />
         </QueryClientProvider>
       </ConvexAuthProvider>
